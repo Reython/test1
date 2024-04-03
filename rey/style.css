@@ -1,0 +1,70 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  background-color: #444
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header{
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.none{
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+
+}
+nav >a {
+  text-decoration:none ;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+main{ 
+background-image: url(https://www.home-designing.com/wp-content/uploads/2018/08/modern-platform-bedroom-sets.jpg);
+width: 100%;
+height: 100vh;
+background-size: cover;
+}
+
+main>div{
+  text-align: center;
+}
+span{
+  color: yellow;
+}
+
+main>div>p{
+  color: white;
+  font-size: 22px;
+}
+
+main > div >input{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.walpaper>div>img{
+  width: 32%;
+}
+.walpaper{
+  display: flex;
+}
